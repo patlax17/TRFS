@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#3D5A52"/>
+  <!-- Stylized "TR" letterform using stretch/arc motif -->
+  <!-- T bar -->
+  <rect x="14" y="18" width="22" height="5" rx="2.5" fill="white"/>
+  <!-- T stem -->
+  <rect x="22" y="18" width="6" height="22" rx="3" fill="white"/>
+  <!-- R leg -->
+  <rect x="36" y="18" width="6" height="22" rx="3" fill="white"/>
+  <!-- R bowl (arc) -->
+  <path d="M42 18 Q52 18 52 26 Q52 34 42 34 L36 34" stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- R leg diagonal -->
+  <line x1="42" y1="34" x2="50" y2="40" stroke="white" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book an Appointment | Total Range Fascia Stretch</title>
+  <meta name="description" content="Book your personalized fascia stretch session with Total Range. Choose from 60-minute, 30-minute, or private mobile sessions. In-studio or we come to you." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.totalrangefst.com/appointments" />
+  <meta property="og:title" content="Book an Appointment | Total Range Fascia Stretch" />
+  <meta property="og:description" content="Schedule your personalized assisted stretching session — in-studio or mobile." />
+  <meta property="og:image" content="https://www.totalrangefst.com/assets/images/IMG_0314.webp" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Book an Appointment | Total Range Fascia Stretch" />
+  <meta name="twitter:description" content="Schedule your personalized assisted stretching session." />
+  <meta name="twitter:image" content="https://www.totalrangefst.com/assets/images/IMG_0314.webp" />
+
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="/" class="site-logo" aria-label="Total Range Fascia Stretch — Home">
+        <span class="wordmark-main">Total Range</span>
+        <span class="wordmark-sub">Fascia Stretch</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/appointments">Book Appointment</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+        <a href="/appointments" class="btn btn-primary" id="header-book-btn">Book Now</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/appointments">Book Appointment</a>
+    <a href="/contact">Contact</a>
+    <a href="/appointments" class="btn btn-primary">Book Now</a>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- ==================== APPT HERO ==================== -->
+    <section class="appt-hero" aria-label="Page header">
+      <div class="container">
+        <span class="section-header eyebrow" style="display:block;margin-bottom:1rem;">Schedule a Session</span>
+        <h1>Ready for Some You-Time?</h1>
+        <p>Schedule an in-person or at-home session and let's start your wellness journey together.</p>
+      </div>
+    </section>
+
+    <!-- ==================== BOOKING WIDGET ==================== -->
+    <section class="section" aria-labelledby="booking-heading">
+      <div class="container">
+
+        <div class="booking-container reveal">
+          <h2 id="booking-heading" style="margin-bottom:0.5rem;">Book Your Session</h2>
+          <p style="color:var(--color-text-muted);margin-bottom:2rem;max-width:100%;">Powered by Square — secure scheduling and payment in one place.</p>
+
+          <!-- ===== PASTE SQUARE APPOINTMENTS EMBED CODE HERE ===== -->
+          <div class="booking-embed-slot" id="square-booking-embed" aria-label="Square booking widget loading area">
+            <!--
+              PASTE YOUR SQUARE APPOINTMENTS EMBED CODE HERE.
+              To get your embed code:
+              1. Log in to your Square Dashboard → Appointments → Settings → Online Booking
+              2. Copy the embed snippet and paste it here, replacing this comment block.
+            -->
+            <div style="text-align:center;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-bottom:1rem;">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              <p style="font-weight:600;color:var(--color-text);margin-bottom:0.5rem;">Booking Widget</p>
+              <p style="color:var(--color-text-muted);font-size:0.875rem;max-width:100%;">Paste your Square Appointments embed code above to display the booking calendar here.</p>
+            </div>
+          </div>
+
+          <div class="booking-fallback">
+            <p>Prefer to open the booking page directly?</p>
+            <a
+              href="[SQUARE_BOOKING_URL]"
+              class="btn btn-primary"
+              id="square-fallback-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Square booking page in a new tab"
+            >
+              Open Booking Page
+            </a>
+          </div>
+        </div>
+
+        <!-- ==================== WHAT TO EXPECT ==================== -->
+        <div class="what-to-expect reveal reveal-delay-1" aria-labelledby="expect-heading">
+          <h3 id="expect-heading">What to Expect</h3>
+          <div class="expect-items">
+
+            <div class="expect-item">
+              <div class="expect-item-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg>
+              </div>
+              <div class="expect-item-text">
+                <h4>Dress Comfortably</h4>
+                <p>Wear comfortable, stretchy clothing that allows free movement — athletic wear works great.</p>
+              </div>
+            </div>
+
+            <div class="expect-item">
+              <div class="expect-item-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <div class="expect-item-text">
+                <h4>Arrive a Few Minutes Early</h4>
+                <p>For studio sessions, plan to arrive 5 minutes early so we can get started on time.</p>
+              </div>
+            </div>
+
+            <div class="expect-item">
+              <div class="expect-item-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                  <polyline points="9 22 9 12 15 12 15 22"/>
+                </svg>
+              </div>
+              <div class="expect-item-text">
+                <h4>Mobile Sessions Come to You</h4>
+                <p>For mobile bookings, we'll come right to your home — just have a small clear floor space available.</p>
+              </div>
+            </div>
+
+            <div class="expect-item">
+              <div class="expect-item-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  <polyline points="14 2 14 8 20 8"/>
+                  <line x1="16" y1="13" x2="8" y2="13"/>
+                  <line x1="16" y1="17" x2="8" y2="17"/>
+                  <polyline points="10 9 9 9 8 9"/>
+                </svg>
+              </div>
+              <div class="expect-item-text">
+                <h4>Cancellation Policy</h4>
+                <p>[CANCELLATION POLICY]</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="wordmark-main">Total Range</span>
+          <span class="wordmark-sub">Fascia Stretch</span>
+          <p class="tagline">"Move Better. Feel Better. Live Better."</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/appointments">Book Appointment</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <address>
+            <span>[SERVICE AREA]</span>
+            <a href="tel:[PHONE]">[PHONE]</a>
+            <a href="mailto:[EMAIL]">[EMAIL]</a>
+            <a href="https://www.instagram.com/totalrangestretch" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in new tab)">Instagram: @totalrangestretch</a>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="copyright-year">2025</span> Total Range Fascia Stretch. All rights reserved.</p>
+        <a href="/appointments" class="btn btn-ghost" style="padding:0.5rem 1.25rem;font-size:0.875rem;" id="footer-book-btn">Book Now</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
