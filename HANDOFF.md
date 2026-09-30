@@ -73,7 +73,7 @@ Google Fonts URL: `https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6
 - `[PHONE]` — Business phone number
 - `[EMAIL]` — Business email address
 - `[SERVICE AREA]` — City/region served
-- `[SQUARE_BOOKING_URL]` — Square appointments booking page URL
+- `[SQUARE_BOOKING_URL]` — [RESOLVED] Square appointments booking page URL added
 - `[FORMSPREE_ID]` — Formspree form ID (replace in `/contact/index.html` action attribute)
 - `[CANCELLATION POLICY]` — Policy text for appointments page
 - `[LOGO FILE]` — If a logo image is provided, replace the text wordmark in header
@@ -104,6 +104,11 @@ All images successfully downloaded and converted to WebP:
 - `sitemap.xml`
 - `robots.txt`
 - `assets/images/*` (downloaded + WebP conversions)
+
+## SQUARE WIDGET INTEGRATION
+- **Embed Code:** `<script src='https://square.site/appointments/buyer/widget/a9eq51ekjvi2yw/L6YHS4KDFSZ7S.js'></script>`
+- **Fallback URL:** `https://book.squareup.com/appointments/a9eq51ekjvi2yw/location/L6YHS4KDFSZ7S/services`
+- **Notes:** Widget successfully embedded. Fallback URL must be manually verified by clicking the "Open Booking Page" button. No Content Security Policy (CSP) headers needed to be added to vercel.json.
 
 ---
 
