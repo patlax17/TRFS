@@ -752,13 +752,18 @@ p { max-width: 68ch; }
   border-radius: var(--radius-xl);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
-  aspect-ratio: 3/4;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .about-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center top;
+  object-fit: contain;
+  object-position: center;
+  padding: var(--space-8);
 }
 .about-content p {
   color: var(--color-text-muted);
