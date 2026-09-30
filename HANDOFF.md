@@ -74,7 +74,7 @@ Google Fonts URL: `https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6
 - `[EMAIL]` — Business email address
 - `[SERVICE AREA]` — City/region served
 - `[SQUARE_BOOKING_URL]` — [RESOLVED] Square appointments booking page URL added
-- `[FORMSPREE_ID]` — Formspree form ID (replace in `/contact/index.html` action attribute)
+- `[FORMSPREE_ID]` — [RESOLVED] Formspree form ID added to `/contact/index.html`
 - `[CANCELLATION POLICY]` — Policy text for appointments page
 - `[LOGO FILE]` — If a logo image is provided, replace the text wordmark in header
 
